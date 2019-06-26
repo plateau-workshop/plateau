@@ -1,1 +1,14 @@
-theme: jekyll-theme-cayman
+# global settings
+title: "PLATEAU Workshop"
+description: "A workshop at the intersection of Programming Languages and Human-Computer Interaction"
+url: "https://schasins.com/plateau/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# build settings
+exclude: ["readme.md"]
+
+sass:
+  # Where you keep your scss files
+  sass_dir: assets/css/
+
+plugins:
+  - jekyll-redirect-from
