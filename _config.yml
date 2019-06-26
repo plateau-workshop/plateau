@@ -1,6 +1,6 @@
 # global settings
 title: "PLATEAU Workshop"
-description: "A workshop at the intersection of Programming Languages and Human-Computer Interaction"
+description: "Bringing together Programming Languages and Human-Computer Interaction"
 url: "https://schasins.com/plateau/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # build settings
