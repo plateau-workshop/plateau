@@ -31,7 +31,10 @@ strong, b {
 
 .pull-right {
   float:right;
-  margin-top: 9px;
+}
+
+.pull-left {
+  float:left;
 }
 
 /* --- */
@@ -61,6 +64,9 @@ strong, b {
 
 .padded {
   margin:30px;
+  margin-top: 12px;
+  padding-bottom: 25px  !important;
+  margin-bottom: 0px;
 }
 
 .bottom-border{
@@ -770,4 +776,22 @@ margin: 3px;
 
 .schedule-header{
   font-weight: 520;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navbarlink{
+  padding: 5px;
+  margin-right: 5px;
+  background-color: rgb(220, 91, 93);
+  color: black;
+  border-radius: 3px;
+}
+
+.navbarlink:hover{
+  background-color: rgb(219, 75, 77);
 }

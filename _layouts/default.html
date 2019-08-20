@@ -22,18 +22,43 @@
   </head>
     <body>
 
-      <div class="header padded bottom-border">
-        <div class="pull-right">
-          PLATEAU 2019 co-located with
-          <a href="http://uist.acm.org/uist2019/" title="UIST2019" target="_blank"><img src="./assets/images/uist2019.png" height="21px"></a>
-        </div>
-        <a href="/" class="nounderline">
-        <div class="mark">
-          <span class="uw">{{ site.title | escape }}</span>
-        </div>
-        <div class="padding-top">{{ site.description | escape }}</div>
-        </a>
-        <br>
+      <div class="header padded bottom-border" style="clear:right">
+
+            <div class="clearfix">
+
+
+              <div class="pull-left">
+                <a href="/" class="nounderline">
+                  <div class="mark">
+                    <span class="uw">{{ site.title | escape }}</span>
+                  </div>
+                  <div class="padding-top">{{ site.description | escape }}</div>
+                </a>
+              </div>
+              
+
+              <div class="pull-right">
+                PLATEAU 2019 co-located with
+                <a href="http://uist.acm.org/uist2019/" title="UIST2019" target="_blank"><img src="./assets/images/uist2019.png" height="21px"></a>
+                <div class="navbar-wrapper">
+
+                      <div class="padding-top">
+                        <div>
+                          {% for link in site.navbar_links %}
+                          <a
+                            {% if link.newtab == true %}
+                              target = "_blank"
+                            {% endif %}
+                            href="{{ link.url }}"><span class="navbarlink">{{ link.title }}</span></a>
+                          {% endfor %}
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+
+            </div>
+
       </div>
 
       <div id="main">

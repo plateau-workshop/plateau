@@ -12,3 +12,11 @@ sass:
 
 plugins:
   - jekyll-redirect-from
+
+navbar_links:
+  - title: "Home"
+    url: "/"
+    newtab: false
+  - title: "Registration"
+    url: "/registration"
+    newtab: false
