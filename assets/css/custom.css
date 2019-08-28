@@ -795,3 +795,11 @@ margin: 3px;
 .navbarlink:hover{
   background-color: rgb(219, 75, 77);
 }
+
+.paper_title{
+  font-weight:500;
+}
+
+.authors{
+  font-style: italic;
+}
