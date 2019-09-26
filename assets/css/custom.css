@@ -803,3 +803,28 @@ margin: 3px;
 .authors{
   font-style: italic;
 }
+
+.padding_between_cols td
+{
+    padding:0 4px 0 4px;
+}
+
+.break{
+  background-color: #f7f7f7
+}
+
+.discussion{
+  background-color: rgb(255,230,230);
+}
+
+.talk{
+  background-color: rgb(255,245,230);
+}
+
+.schedule-left{
+  width: 65%;
+}
+.schedule-right{
+   width: 30%;
+   text-align:right;
+}
