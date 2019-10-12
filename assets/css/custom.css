@@ -828,3 +828,7 @@ margin: 3px;
    width: 30%;
    text-align:right;
 }
+
+.italic{
+  font-style: italic;
+}
